@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "mammoth/style/version"
+require "mammoth_style/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "mammoth-style"
-  spec.version       = Mammoth::Style::VERSION
+  spec.version       = MammothStyle::VERSION
   spec.authors       = ["Team Mammoth"]
   spec.email         = ["developers@mammothhr.com"]
 
