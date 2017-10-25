@@ -86,6 +86,7 @@ AllCops:
     - '.env.local'
     - 'test/teaspoon_env.rb'
     - 'db/migrate/*'
+    - 'db/data/*'
   # Default formatter will be used if no `-f/--format` option is given.
   DefaultFormatter: progress
   # Cop names are not displayed in offense messages by default. Change behavior
@@ -1072,7 +1073,7 @@ Style/RedundantReturn:
 
 # Use `/` or `%r` around regular expressions.
 Style/RegexpLiteral:
-  EnforcedStyle: slashes
+  EnforcedStyle: mixed
   # slashes: Always use slashes.
   # percent_r: Always use `%r`.
   # mixed: Use slashes on single-line regexes, and `%r` on multi-line regexes.
