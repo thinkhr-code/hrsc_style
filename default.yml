@@ -1608,3 +1608,6 @@ Rails/Validation:
 Bundler/OrderedGems:
   Enabled: false
   TreatCommentsAsGroupSeparators: true
+
+Style/DateTime:
+  Enabled: false
