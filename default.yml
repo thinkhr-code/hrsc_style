@@ -1340,7 +1340,7 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   CountComments: false  # count full line comments?
   Max: 25
-  ExcludedMethods: ['describe', 'context', 'concerning', 'class_methods', 'swagger_path']
+  ExcludedMethods: ['describe', 'context', 'concerning', 'class_methods', 'swagger_path', 'swagger_schema']
   Exclude:
     - app/admin/**/*
     - lib/tasks/**/*.rake
