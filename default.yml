@@ -266,7 +266,7 @@ Layout/AlignParameters:
 Style/AndOr:
   # Whether `and` and `or` are banned only in conditionals (conditionals)
   # or completely (always).
-  EnforcedStyle: always
+  EnforcedStyle: conditionals
   SupportedStyles:
     - always
     - conditionals
