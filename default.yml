@@ -164,13 +164,7 @@ Style/MethodCallWithoutArgsParentheses:
 Layout/EmptyLinesAroundAccessModifier:
   Enabled: true
 
-Layout/EmptyLines:
-  Enabled: true
-
 Layout/SpaceAfterComma:
-  Enabled: true
-
-Layout/LeadingCommentSpace:
   Enabled: true
 
 Layout/BlockEndNewline:
@@ -347,11 +341,6 @@ Layout/IndentationConsistency:
     - normal
     - rails
 
-Layout/IndentationWidth:
-  # Number of spaces for each indentation level.
-  Width: 2
-  IgnoredPatterns: []
-
 # Checks the indentation of the first element in an array literal.
 Layout/IndentArray:
   # The value `special_inside_parentheses` means that array literals with
@@ -413,6 +402,9 @@ Lint/DefEndAlignment:
     - def
   AutoCorrect: false
 
+Lint/Syntax:
+  Enabled: false
+
 ###############
 # END PHASE 1
 ###############
@@ -434,6 +426,12 @@ Lint/DefEndAlignment:
 # Lint/Syntax:
 #   Enabled: true
 #
+# Layout/EmptyLines:
+#   Enabled: true
+#
+# Layout/LeadingCommentSpace:
+#   Enabled: true
+#
 # Style/NumericPredicate:
 #   EnforcedStyle: predicate
 #   SupportedStyles:
@@ -443,6 +441,11 @@ Lint/DefEndAlignment:
 #   # false positives.
 #   Exclude:
 #     - 'spec/**/*'
+#
+# Layout/IndentationWidth:
+#   # Number of spaces for each indentation level.
+#   Width: 2
+#   IgnoredPatterns: []
 #
 # # Align ends correctly.
 # Lint/EndAlignment:
