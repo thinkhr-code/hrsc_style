@@ -402,9 +402,6 @@ Lint/DefEndAlignment:
     - def
   AutoCorrect: false
 
-Lint/Syntax:
-  Enabled: false
-
 ###############
 # END PHASE 1
 ###############
@@ -421,9 +418,6 @@ Lint/Syntax:
 #   Enabled: true
 #
 # Lint/UselessAssignment:
-#   Enabled: true
-#
-# Lint/Syntax:
 #   Enabled: true
 #
 # Layout/EmptyLines:
