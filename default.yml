@@ -77,6 +77,7 @@ AllCops:
     - 'mammoth-signup/deploy_dist'
     - 'vendor/assets/bower_components'
     - 'bower_components'
+    - 'node_modules'
     - '*.csv'
     - 'app/admin/reports/.DS_Store'
     - '.DS_Store'
