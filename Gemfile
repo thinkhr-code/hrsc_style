@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+mammoth_service', git: 'git://github.com/MammothHR/mammoth_service.git', tag: 'v0.7.0'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
