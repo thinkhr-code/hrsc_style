@@ -88,6 +88,7 @@ AllCops:
     - 'test/teaspoon_env.rb'
     - 'db/migrate/*'
     - 'db/data/*'
+    - 'db/schema.rb'
   # Default formatter will be used if no `-f/--format` option is given.
   DefaultFormatter: progress
   # Cop names are not displayed in offense messages by default. Change behavior
