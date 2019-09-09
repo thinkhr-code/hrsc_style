@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "hrsc_style/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "hrsc-style"
+  spec.name          = "hrsc_style"
   spec.version       = HrscStyle::VERSION
   spec.authors       = ["Team Mammoth"]
   spec.email         = ["developers@mammothhr.com"]
