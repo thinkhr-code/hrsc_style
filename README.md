@@ -1,6 +1,6 @@
-# mammoth-style
+# hrsc-style
 
-Mammoth shared style configs.
+HRSC shared style configs.
 
 ## Installation
 
@@ -8,14 +8,14 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :test, :development do
-  gem 'mammoth-style'
+  gem 'hrsc-style'
 end
 ```
 
 Or, for a Ruby library, add this to your gemspec:
 
 ```ruby
-spec.add_development_dependency 'mammoth-style'
+spec.add_development_dependency 'hrsc-style'
 ```
 
 And then run:
@@ -30,7 +30,7 @@ Create a `.rubocop.yml` with the following directives:
 
 ```yaml
 inherit_gem:
-  mammoth-style:
+  hrsc-style:
     - default.yml
 ```
 
@@ -40,4 +40,4 @@ Now, run:
 $ bundle exec rubocop
 ```
 
-You do not need to include rubocop directly in your application's dependences. Mammoth-style will include a specific version of `rubocop` that is shared across all projects.
+You do not need to include rubocop directly in your application's dependences. HRSC-style will include a specific version of `rubocop` that is shared across all projects.

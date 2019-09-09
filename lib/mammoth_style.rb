@@ -1,5 +1,5 @@
-require "mammoth_style/version"
+require "hrsc_style/version"
 
-module MammothStyle
+module HrscStyle
   # Your code goes here...
 end

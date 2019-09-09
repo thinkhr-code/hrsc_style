@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "mammoth_style/version"
+require "hrsc_style/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "mammoth-style"
-  spec.version       = MammothStyle::VERSION
+  spec.name          = "hrsc-style"
+  spec.version       = HrscStyle::VERSION
   spec.authors       = ["Team Mammoth"]
   spec.email         = ["developers@mammothhr.com"]
 
-  spec.summary       = 'Mammoth style guides and shared style configs.'
-  spec.homepage      = 'https://github.com/mammothhr/mammoth-style'
+  spec.summary       = 'HRSC style guides and shared style configs.'
+  spec.homepage      = 'https://github.com/thinkhr-code/hrsc-style'
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
